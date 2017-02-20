@@ -281,7 +281,7 @@ define([
 		// _blankGif: [protected] String
 		//		Path to a blank 1x1 image.
 		//		Used by `<img>` nodes in templates that really get their image via CSS background-image.
-		_blankGif: config.blankGif || require.toUrl("dojo/resources/blank.gif"),
+		_blankGif: config.blankGif || '',
 
 		// textDir: String
 		//		Bi-directional support,	the main variable which is responsible for the direction of the text.
